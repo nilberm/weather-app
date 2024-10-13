@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+#app {
+  margin: 120px 20px;
+}
+
+.status, .weather-info {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+h2 {
+  margin-top: 60px;
+}
+
+input {
+  padding: 10px;
+  font-size: 1em;
+  margin-top: 20px;
+}

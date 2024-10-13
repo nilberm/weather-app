@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <h1>Weather Information</h1>
+
+      <!-- Section to search for user location -->
+      <p class="status">Click the button to get your current temperature!</p>
+      <button id="getWeather" type="button">Get Weather</button>
+      <div id="weatherInfo" class="weather-info"></div>
+
+      <!-- Section to search by city -->
+      <h2>Search for City Weather</h2>
+      <input type="text" id="cityInput" placeholder="Enter city name" />
+      <button id="searchCityWeather" type="button">Search Weather</button>
+      <div id="cityWeatherInfo" class="weather-info"></div>
+    </div>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
